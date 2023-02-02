@@ -1,7 +1,5 @@
 name: SnowPM
 version: 1
-author: felix5326
-api: 
-- 4.0.0
-- 4.7.0
+author: felix5326(aka_nepinhum)
+api: 4.0.0
 main: felix\Snow
