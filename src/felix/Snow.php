@@ -9,8 +9,6 @@ class Snow extends PluginBase
 {
     private static Snow $api;
     
-    public const TEXT = C::GOLD."Auto".C::WHITE." Snow".C::GRAY." is".C::GREEN." on";
-    
     public function onEnable(): void
     {
         self::$api = $this;
