@@ -25,7 +25,6 @@ class SnowListener implements Listener
             eventData: 100000,
             position: null
         ));
-        $player->sendMessage(Snow::TEXT ."");
     }
     
     /**
