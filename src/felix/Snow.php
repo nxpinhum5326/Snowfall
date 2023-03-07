@@ -1,11 +1,8 @@
 <?php
-/**
-* @author: felix5326(aka nepinhum5326)
-*/
+
 namespace felix;
 
 use pocketmine\plugin\PluginBase;
-use pocketmine\utils\TextFormat as C;
 
 class Snow extends PluginBase
 {
@@ -15,6 +12,5 @@ class Snow extends PluginBase
     {
         self::$api = $this;
         self::$api->getServer()->getPluginManager()->registerEvents(new SnowListener(), self::$api);
-    
     }
 }
