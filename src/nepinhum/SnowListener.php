@@ -1,6 +1,6 @@
 <?php
 
-namespace felix;
+namespace nepinhum;
 
 use pocketmine\event\Listener;
 use pocketmine\event\world\ChunkLoadEvent;
