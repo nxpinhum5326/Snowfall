@@ -1,5 +1,5 @@
 name: SnowfallPM
 version: 1.1.0
-author: felix5326(aka_nepinhum)
+author: schermann470
 api: 5.0.0
-main: nepinhum\Snow
+main: nepinhum\Snowfall
