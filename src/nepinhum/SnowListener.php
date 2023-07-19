@@ -10,6 +10,7 @@ use pocketmine\network\mcpe\protocol\LevelEventPacket;
 use pocketmine\network\mcpe\protocol\types\LevelEvent;
 
 use pocketmine\data\bedrock\BiomeIds;
+
 class SnowListener implements Listener
 {
     function onJoin(PlayerJoinEvent $event): void
