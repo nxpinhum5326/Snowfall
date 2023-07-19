@@ -17,6 +17,7 @@ class Snowfall extends PluginBase
     {
         self::$instance->getServer()->getPluginManager()->registerEvents(new SnowListener(), $this);
     }
+    
     public static function getInstance(): Snowfall
     {
         return self::$instance;
