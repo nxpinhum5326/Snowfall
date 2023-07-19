@@ -2,24 +2,28 @@
 
 namespace nepinhum;
 
-use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
+use pocketmine\Server;
 
-class Snowfall extends PluginBase
-{
-    private static Snowfall $instance;
+class Snowfall extends PluginBase {
 
-	protected function onLoad(): void
-	{
+	/**
+	 * @var Snowfall
+	 */
+	protected static Snowfall $instance;
+
+	protected function onLoad(): void {
 		self::$instance = $this;
 	}
-	public function onEnable(): void
-	{
-		self::$instance->getServer()->getPluginManager()->registerEvents(new SnowListener(), self::$instance);
+
+	protected function onEnable(): void {
+		self::$instance->getServer()::getInstance()->getPluginManager()->registerEvents(new SnowListener(), $this);
 	}
 
-	public static function getInstance(): Snowfall
-	{
+	/**
+	 * @return Snowfall
+	 */
+	public static function getInstance(): Snowfall {
 		return self::$instance;
 	}
 }
