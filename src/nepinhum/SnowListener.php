@@ -4,6 +4,7 @@ namespace nepinhum;
 
 use pocketmine\event\Event;
 use pocketmine\event\Listener;
+use pocketmine\event\player\PlayerChatEvent;
 use pocketmine\event\world\ChunkLoadEvent;
 use pocketmine\event\player\PlayerJoinEvent;
 
