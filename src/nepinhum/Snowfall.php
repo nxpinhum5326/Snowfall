@@ -13,7 +13,7 @@ class Snowfall extends PluginBase {
 	protected static Snowfall $instance;
 
 	protected function onLoad(): void {
-		self::$instance = $this;
+    self::$instance = $this;
 	}
 
 	protected function onEnable(): void {
