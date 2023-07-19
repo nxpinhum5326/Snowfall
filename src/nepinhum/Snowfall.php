@@ -7,12 +7,11 @@ use pocketmine\plugin\PluginBase;
 
 class Snowfall extends PluginBase
 {
-  
-  private static Snowfall $instance;
+    private static Snowfall $instance;
 
 	protected function onLoad(): void
 	{
-    self::$instance = $this;
+		self::$instance = $this;
 	}
 	public function onEnable(): void
 	{
@@ -21,7 +20,6 @@ class Snowfall extends PluginBase
 
 	public static function getInstance(): Snowfall
 	{
-    return self::$instance;
+		return self::$instance;
 	}
-  
 }
