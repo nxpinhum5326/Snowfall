@@ -1,5 +1,7 @@
-# SnowPM
-My old auto snow plugin for @pmmp - PM4
+# SnowfallPM
+Snowfall plugin for @pmmp - PM5
+
+Note: for now 5.3.2  and above
 
 ## TODO List
 - [X] PM5 Support
