@@ -1,5 +1,9 @@
-name: SnowfallPM
-version: 1.1.0
+name: Snowfall
+version: 1.2.0
 author: schermann470
 api: 5.0.0
 main: nepinhum\Snowfall
+
+permissions:
+  snowfall.permission.command:
+    default: op
