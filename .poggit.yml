@@ -1,8 +1,8 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/nxpinhum5326/SnowPM
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/nxpinhum5326/Snowfall
 build-by-default: true
 branches:
 - master
 projects:
-  SnowfallPM:
+  Snowfall:
     path: ""
 ...
